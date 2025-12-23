@@ -1,0 +1,204 @@
+:root {
+  --main-color: #6930fa;
+}
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+body {
+  background-color: #f8fafc;
+}
+.zzz {
+  width: 55px;
+  height: 55px;
+  background-image: linear-gradient(to right, #00a5e4, #0080f2);
+}
+.fav {
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(to right, #e4005b, #f20049);
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+.form-control:focus {
+  border-color: #8e51ff;
+  box-shadow: 0 0 0 0.25rem rgb(226, 216, 254);
+}
+.modal-body::-webkit-scrollbar {
+  display: none;
+}
+.fs-7 {
+  font-size: 14px;
+}
+.bg-icons {
+  width: 45px;
+  height: 45px;
+  background-color: var(--main-color);
+}
+.btn-hover {
+  transition: all 0.3s;
+}
+.btn-hover:hover {
+  transform: translatey(-0.1875rem);
+}
+.hover-nav-icon:hover {
+  background-color: #f3f4f6;
+}
+.bg-add {
+  background-image: linear-gradient(to right, #7d23fd, #5039f7);
+}
+.bg-users {
+  width: 45px;
+  height: 45px;
+  background-color: #1a66fe;
+  box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #1a66fe;
+}
+.bg-user {
+  width: 65px;
+  height: 65px;
+  background-color: #1a66fe;
+}
+.bg-star {
+  width: 45px;
+  height: 45px;
+  background-color: #ff9a00;
+  box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #ff9a00;
+}
+.bg-heart {
+  width: 45px;
+  height: 45px;
+  background-color: #ef002b;
+  box-shadow: 0 10px 15px -3px #0000001a, 0 4px 6px -4px #ef002b;
+}
+.bg-location {
+  width: 35px;
+  height: 35px;
+  background-color: #d0fae5;
+}
+.bg-star-hover {
+  width: 35px;
+  height: 35px;
+}
+.bg-star-hover:hover {
+  background-color: #d0fae5;
+}
+.fa-location-dot {
+  color: #009966;
+}
+.phone-bg {
+  width: 25px;
+  height: 25px;
+  background-color: #dbeafe;
+}
+.phone-bgz {
+  width: 35px;
+  height: 35px;
+  background-color: #d0fae5;
+  color: #009966;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.text-span {
+  color: #7f22fe;
+}
+.phone-bgz:hover {
+  background-color: #009966;
+  color: white;
+}
+.phone-bgzz {
+  width: 35px;
+  height: 35px;
+  background-color: #d0fae5;
+  color: #009966;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.phone-bgzz:hover {
+  background-color: #ef002b;
+  color: white;
+}
+.bg-hov:hover {
+  background-color: #fff8ec;
+  cursor: pointer;
+}
+
+.box-sz {
+  box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+  transition: all 0.3s;
+}
+.box-s {
+  box-shadow: 0 1px 3px 0 #0000001a, 0 1px 2px -1px #0000001a;
+  transition: all 0.3s;
+}
+.box-s:hover {
+  box-shadow: 0 1px 3px 0 #0000001a, 0 5px 5px -1px #0000001a;
+}
+
+.no-icon-select {
+  background-image: none;
+}
+.bg-customer {
+  width: 60px;
+  height: 60px;
+  background-color: #ff9a00;
+}
+.bg-envelope {
+  color: #7f22fe;
+}
+.bg-Emergency,
+.bg-work-badge {
+  background-color: #fff1f2;
+}
+.text-Emergency {
+  color: #ef002b;
+}
+.text-work-badge {
+  color: #8200db;
+}
+.text-friends-badge {
+  color: green;
+}
+.hover-envelope,
+.bg-phone {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.bg-phone:hover,
+.hover-envelope:hover {
+  background-color: #d0fae5;
+}
+.cursor-p {
+  cursor: pointer;
+}
+.trash:hover {
+  color: #ef002b;
+}
+.fa-pens:hover {
+  color: #5039f7;
+}
+.trash,
+.fa-pens {
+  color: #6a7282;
+}
+.bg-star-abs {
+  background-color: #ff9a00;
+  width: 20px;
+  height: 20px;
+}
+
+.bg-pulse-abs {
+  background-color: #ef002b;
+  width: 20px;
+  height: 20px;
+}
+
+.text-warning {
+  color: yellow;
+}
